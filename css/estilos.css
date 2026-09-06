@@ -27,7 +27,6 @@ body {
     object-position: center top;
 }
 
-
 .carousel-indicators [data-bs-target] {
     background-color: var(--celeste-electrico);
 }

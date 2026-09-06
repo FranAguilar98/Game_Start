@@ -1,0 +1,114 @@
+:root {
+    --morado-principal: #7743E6;
+    --negro: #010303;
+    --celeste-electrico: #2de2e6;
+    --texto-claro: #ffffff;
+}
+
+body {
+    background-color: var(--negro);
+    color: var(--texto-claro);
+}
+
+.navbar {
+    background-color: var(--morado-principal) !important;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--celeste-electrico) !important;
+    text-shadow: 0 0 6px var(--celeste-electrico);
+}
+
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: var(--celeste-electrico);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: drop-shadow(0 0 4px var(--celeste-electrico));
+}
+
+.carousel,
+.carousel-item {
+    background-color: var(--negro);
+}
+
+.card {
+    border: 2px solid var(--celeste-electrico);
+    box-shadow: 0 0 12px rgba(45, 226, 230, 0.5);
+    background-color: var(--morado-principal);
+    color: var(--texto-claro);
+}
+
+.list-group-item {
+    background-color: var(--morado-principal);
+    color: var(--texto-claro);
+    border-color: var(--celeste-electrico);
+}
+
+.btn-neon {
+    background-color: var(--negro);
+    color: var(--celeste-electrico);
+    border: 2px solid var(--celeste-electrico);
+    box-shadow: 0 0 8px var(--celeste-electrico);
+}
+
+.btn-neon:hover {
+    background-color: var(--celeste-electrico);
+    color: var(--negro);
+}
+
+.titulo-neon {
+    color: var(--morado-principal);
+    text-shadow:
+        -1px -1px 0 var(--celeste-electrico),
+        1px -1px 0 var(--celeste-electrico),
+        -1px 1px 0 var(--celeste-electrico),
+        1px 1px 0 var(--celeste-electrico),
+        0 0 10px var(--celeste-electrico);
+}
+
+footer {
+    background-color: var(--negro);
+    border-top: 3px solid var(--celeste-electrico);
+    box-shadow: 0 0 15px rgba(45, 226, 230, 0.4);
+}
+
+.footer-title {
+    color: var(--celeste-electrico);
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+}
+
+.footer-text {
+    color: var(--texto-claro);
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.footer-link {
+    color: var(--texto-claro);
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-link:hover {
+    color: var(--celeste-electrico);
+    text-decoration: underline;
+}
+
+.footer-cont {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: var(--texto-claro);
+    font-size: 0.85rem;
+}

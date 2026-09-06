@@ -27,6 +27,18 @@ body {
     object-position: center top;
 }
 
+@media (max-width: 992px) {
+    .carousel-item img {
+        height: 400px;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
 .carousel-indicators [data-bs-target] {
     background-color: var(--celeste-electrico);
 }
